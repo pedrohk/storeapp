@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.0-M1</version> <relativePath/> </parent>
+        <version>3.4.5</version> <relativePath/> </parent>
     <groupId>org.mystore</groupId>
     <artifactId>storeapp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -49,7 +49,7 @@
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <artifactId>spring-boot</artifactId>
                 <configuration>
                     <image>
                         <builder>paketobuildpacks/builder:tiny</builder>
