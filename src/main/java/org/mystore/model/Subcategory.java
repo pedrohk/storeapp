@@ -37,6 +37,13 @@ public class Subcategory {
         this.category = category;
     }
 
+    public Subcategory(Long id, String name, String description, ProductCategory category) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.category = category;
+    }
+
     public Long getId() {
         return id;
     }

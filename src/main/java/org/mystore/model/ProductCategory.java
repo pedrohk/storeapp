@@ -30,6 +30,12 @@ public class ProductCategory {
         this.description = description;
     }
 
+    public ProductCategory(long id, String name, String description) {
+        this.setId(id);
+        this.setName(name);
+        this.setDescription(description);
+    }
+
     public Long getId() {
         return id;
     }
